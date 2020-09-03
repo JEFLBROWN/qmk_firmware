@@ -12,23 +12,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TAB,  KC_Q,    KC_W,    KC_E,   KC_R,  KC_T,  KC_Y,  KC_U,  KC_I,    KC_O,    KC_P,     KC_LBRC, KC_RBRC, KC_BSLS, KC_PGDN,
   FUNCTON, KC_A,    KC_S,    KC_D,   KC_F,  KC_G,  KC_H,  KC_J,  KC_K,    KC_L,    KC_SCLN,  KC_QUOT, KC_ENT,
   KC_LSFT, KC_Z,    KC_X,    KC_C,   KC_V,  KC_B,  KC_N,  KC_M,  KC_COMM, KC_DOT,  KC_SLSH,  KC_DEL,           KC_UP,
-  KC_LCTL, KC_LALT, KC_LGUI,                   KC_SPC,                   UTILITY, KC_LEAD,           KC_LEFT, KC_DOWN, KC_RGHT
+  KC_LCTL, KC_LALT, KC_LGUI,                   KC_SPC,                    UTILITY, KC_LEAD,           KC_LEFT, KC_DOWN, KC_RGHT
   ),
 
   [_FN] = LAYOUT(
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, DCVAL01, ICVAL01, _______, _______,
-  _______, TABLEFT, CLSETAB, TABRIGT, RELOAD,  _______, _______, _______, KC_UP,   CURSRUP, _______, DEINDNT, INDENT,  _______, _______,
-  XXXXXXX, KC_LALT, DSKTOPL, DSKTOPR, FULLSCR, _______, KC_HOME, CWORDLF, CWORDRT, KC_END,  KC_RGHT, _______, _______,
-  _______, _______, _______, _______, _______, _______, NEWTABS, KC_DOWN, CURSRDN, _______, _______, DELLINE, _______,
-  _______, _______, _______,                   FOCUSRL,                   _______, _______,          _______, _______, _______
+  _______, TABLEFT, CLSETAB, TABRIGT, RELOAD,  _______, _______, _______, KC_UP,   _______, _______, DEINDNT, INDENT,  _______, _______,
+  XXXXXXX, KC_LALT, DSKTOPL, DSKTOPR, FULLSCR, _______, KC_HOME, KC_LEFT, KC_END, KC_RHGT,  _______, _______, _______,
+  _______, _______, KC_DEL,  KC_LCTL, _______, _______, NEWTABS, KC_DOWN, _______, _______, _______, DELLINE, LAYERUP,
+  _______, _______, _______,                   FOCUSRL,                   _______, _______,          _______, LAYERDN, _______
   ),
 
   [_UT] = LAYOUT(
   _______, ONECOLU, TWOCOLU, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
-  ACTYBAR, SIDEBAR, EXPLORE, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
-  _______, _______, _______, _______, _______, _______, _______, _______, _______, JUMPERS, _______, _______, _______, _______, _______,
-  _______, _______, WINSNIP, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+  ACTYBAR, SIDEBAR, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+  _______, _______, _______, _______, _______, _______, _______, _______, _______, OPENERS, _______, _______, _______, _______, _______,
+  _______, _______, WINSNIP, _______, EXPLORE, _______, _______, _______, _______, JUMPERS, _______, _______, _______,
   _______, _______, DARKMOD, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
   _______, _______, _______,                   _______,                   XXXXXXX, PASSKEY,          _______, _______, _______
   ),

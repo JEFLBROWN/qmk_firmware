@@ -50,6 +50,14 @@ void matrix_scan_user(void) {
     register_code(KC_SLEP);
     }
 
+    // Save
+    SEQ_ONE_KEY(KC_S) {
+      register_code(KC_LCTL);
+      register_code(KC_S);
+      unregister_code(KC_S);
+      unregister_code(KC_LCTL);
+    }
+
 // VS Code
     // show explorer ctrl+Shift+e
     // Zen Mode
