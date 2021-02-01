@@ -7,8 +7,9 @@ enum layers {
 };
 
 // Readability keycodes
-#define LOWER   MO(_LOWER)
-#define RAISE   MO(_RAISE)
+#define LOWER MO(_LOWER)
+#define RAISE MO(_RAISE)
+
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -19,9 +20,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_RAISE] = LAYOUT(
-    _______, A(KC_F4),KC_GRV, _______,
+    _______, A(KC_F4),   KC_GRV, _______,
     _______, _______, _______, _______,
-    _______, _______, _______, RESET
+    _______, _______, _______, _______
   )
+
+
+
+
 
 };

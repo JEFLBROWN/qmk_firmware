@@ -1,0 +1,3 @@
+# MCU name
+MCU = STM32F303
+VIA_ENABLE = yes

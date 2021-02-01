@@ -5,10 +5,13 @@
 #define _SP 4
 
 // layers
-#define FUNCTON LT(_FN, KC_RALT)
+#define FUNCTON LT(_FN, KC_LCTL)
 #define UTILITY LT(_UT, DISPUTT)
 #define SPECIAL LT(_SP, DISMUTE)
 #define MEDIA LT(_ME, KC_ESC)
+
+// Encoder
+#define ENCDR KC_MUTE
 
 // Mod Taps
 #define SHIFTY MT(KC_LSFT, KC_LEAD)  // Left Shift when held, Escape when tapped
@@ -52,6 +55,7 @@
 #define LINED C(S(KC_DOWN))     // line down
 #define FOLD C(S(KC_LBRC))      // Fold
 #define UNFOLD C(S(KC_RBRC))    // Unfold
+#define TRMNL C(KC_GRV)
 
 // VS Code
 #define CHORD   C(KC_K)              // Activate Chord
@@ -73,7 +77,7 @@
 #define DUPLCTE C(KC_D)              // duplicate selected word
 #define ONECOLU MEH(KC_1)            // One Column Layout
 #define TWOCOLU MEH(KC_2)            // Two Column Layout
-#define TYPEWRI C(S_KC_T))           // typewriter mode toggle
+#define TYPEWRI C(S_KC_T)           // typewriter mode toggle
 #define MTABRT LCA(KC_RGHT)          // move tab to the right
 #define MTABLF LCA(KC_LEFT)          // move tab to the left
 #define HOZVERT S(A(KC_0))           // toggles view from horizontal split to vertical split
