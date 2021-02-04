@@ -1,17 +1,17 @@
 #pragma once
 // place overrides here
 
-#define COMBO_COUNT 6
+// #define COMBO_COUNT 6
+// #define COMBO_TERM 160
 #define TAPPING_TERM 168
-#define COMBO_TERM 160
 
 #define LEADER_PER_KEY_TIMING
 #define LEADER_TIMEOUT 250
 
 // COMBOS!!!!!!
 // Left Hand Combos
-// qw 
-// w+esc 
+// qw
+// w+esc
 // q+esc
 // qd qf
 // vf
@@ -19,28 +19,28 @@
 
 //Right hand combos
 // '+;
-// jm 
+// jm
 
 // two hand combos
-// fj qp qk qj vm vk vj 
+// fj qp qk qj vm vk vj
 
 // Combo Possibilities
-// bq bz 
+// bq bz
 // cf* cj* cv cx
-// fq fv* fx fz 
+// fq fv* fx fz
 // hx hz
 // gq gv gx
 // jb jd* jf* jg jh jl jm* jp jq jr js jt jv jw jx jy jz
 // kq kx kz
 // mx mz
-// pq pv px 
+// pq pv px
 // qb qc qd qf qg qh qj qk ql qm qn qp qq qv qw* qx qy qz
-// sx 
-// tq 
-// vb vf vh vj vk vm vp vq vw vx 
+// sx
+// tq
+// vb vf vh vj vk vm vp vq vw vx
 // wv wx
-// xd xj xk xr xz 
-// yq yy 
+// xd xj xk xr xz
+// yq yy
 // zf zr zx*
 
 // Special keybinds

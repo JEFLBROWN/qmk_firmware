@@ -1,7 +1,7 @@
 #include QMK_KEYBOARD_H
 #include "DEFINE.C"
 #include "LEADER.C"
-#include "COMBOS.C"
+// #include "COMBOS.C"
 #include "MACROS.C"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -19,7 +19,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, DCVAL01, ICVAL01, _______, _______,
   _______, TABLEFT, CLSETAB, TABRIGT, RELOAD,  _______, _______, _______, KC_UP,   _______, _______, DEINDNT, INDENT,  _______, _______,
-  XXXXXXX, KC_LALT, DSKTOPL, DSKTOPR, FULLSCR, _______, KC_HOME, KC_LEFT, KC_END, KC_RHGT,  _______, _______, _______,
+  XXXXXXX, KC_LALT, DSKTOPL, DSKTOPR, FULLSCR, _______, KC_HOME, KC_LEFT, KC_END,  KC_RGHT, _______, _______, _______,
   _______, _______, KC_DEL,  KC_LCTL, _______, _______, NEWTABS, KC_DOWN, _______, _______, _______, DELLINE, LAYERUP,
   _______, _______, _______,                   FOCUSRL,                   _______, _______,          _______, LAYERDN, _______
   ),

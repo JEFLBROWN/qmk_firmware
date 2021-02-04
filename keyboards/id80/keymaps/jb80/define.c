@@ -93,3 +93,5 @@
 #define DISDEAF C(S(KC_F15))  // Deafen
 #define DISPUTT C(S(KC_F16))  // Push To talk
 #define DISTOGG C(S(KC_F17))  // toggles between push to talk and auto detect voice
+
+

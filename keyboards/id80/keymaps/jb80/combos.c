@@ -1,8 +1,3 @@
-enum custom_keycodes { // Custom Keycodes
-  PASSKEY = SAFE_RANGE,
-  GITHUB,
-  EMAIL
-};
 
 enum combos { // Combos to make a new one you need to change the COMBO COUNT in Config.h
   ZOOMI, // zoomin

@@ -1,3 +1,9 @@
+enum custom_keycodes { // Custom Keycodes
+  PASSKEY = SAFE_RANGE,
+  GITHUB,
+  EMAIL
+};
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case PASSKEY:

@@ -15,7 +15,6 @@ void matrix_scan_user(void) {
     SEQ_TWO_KEYS(KC_J, KC_B) {
       SEND_STRING("hello@jefbrown.com");
     }
-
     // Focus Outline chord
     SEQ_TWO_KEYS(KC_O, KC_L) {
       register_code(KC_LCTL);
