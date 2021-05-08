@@ -1,6 +1,0 @@
-# MCU name
-MCU = STM32F303
-
-# LEADER_ENABLE = yes
-# TAPDNACE_ENABLE = yes
-# COMBO_ENABLE = yes
