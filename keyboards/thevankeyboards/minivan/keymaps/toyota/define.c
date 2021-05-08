@@ -5,6 +5,12 @@
 #define _UT 4
 #define _ME 5
 
+enum custom_keycodes { // Custom Keycodes
+  KEY = SAFE_RANGE,
+  GITHUB,
+  EMAIL
+};
+
 //Layers
 #define SYMBOL LT(_SY, KC_ENT) //toggle Shift layer
 #define NUMBER LT(_NM, KC_TAB) //toggle Numpad layer

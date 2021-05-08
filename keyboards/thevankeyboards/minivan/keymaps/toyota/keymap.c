@@ -4,12 +4,6 @@
 #include "COMBOS.C"
 #include "MACROS.C"
 
-enum custom_keycodes { // Custom Keycodes
-  KEY = SAFE_RANGE,
-  GITHUB,
-  EMAIL
-};
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_DF] = LAYOUT_arrow( /* Default */
     MEDIUM,  KC_Q,     KC_W,      KC_E,     KC_R,    KC_T,    KC_Y,     KC_U,   KC_I,     KC_O,    KC_P,     KC_BSPC,
@@ -33,20 +27,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_FN] = LAYOUT_arrow( /* Function */
-    KC_GRV, _______, _______, _______, _______,  _______, _______, _______, _______, _______, _______, KC_DEL,
+    KC_GRV,  _______, _______, _______, _______,  _______, _______, _______, _______, _______, _______, KC_DEL,
     _______, _______, _______, _______, TD(UNFO), GRUG,   _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, SETTING, _______, LAYUP,  _______,
-    _______, _______, _______,          _______, GAMES,            _______,           _______, LAYDN,  _______
+    _______, _______, _______,          _______, _______,            _______,          _______, LAYDN,  _______
 ),
 
   [_UT] = LAYOUT_arrow( /* Utility */
     SIDEBAR, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     SBSELCT, BKSELCT, _______, _______, _______, _______, _______, _______, DELLINE, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, LAYOUT1, LAYOUT2, _______, _______, _______,
-    EMAIL,   GITHUB,  KEY,              _______, _______,          _______,            VIEW01,  _______, VIEW02
+    EMAIL,   GITHUB,  KEY,              _______, _______,          _______,           VIEW01, _______, VIEW02
   ),
 
-  [_XT] = LAYOUT_arrow( /* Media */
+  [_ME] = LAYOUT_arrow( /* Media */
     XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, _______, _______, _______, KC_F7,   KC_F8,    KC_F9, _______, _______,
     _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, _______, KC_F4,   KC_F5,    KC_F6, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, TD(F111),TD(F212), KC_F3, _______, _______,

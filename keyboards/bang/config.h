@@ -28,13 +28,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DESCRIPTION  Board for all trades
 
 /* key matrix size */
-#define MATRIX_ROWS 6
+#define MATRIX_ROWS 5
 #define MATRIX_COLS 15
 
 /* key matrix assignment */
 
-#define MATRIX_ROW_PINS { B2, B8, B3, B9, B14, B15 }
-#define MATRIX_COL_PINS { A15, A8, A7, A6, B0, B1, B4, B5, B12, B11, B10, B13, A0, A1, A2 }
+#define MATRIX_ROW_PINS { B2, B1, B3, B4, B5,}
+#define MATRIX_COL_PINS { A2, A6, A15, A8, A7, B0, A1, A0, B8, B13, B15, B9, B10, B11, B12 }
 
 /* Encoder assignment */
 #define ENCODERS_PAD_A { B6 }

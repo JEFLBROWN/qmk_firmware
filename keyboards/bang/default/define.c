@@ -5,9 +5,9 @@
 #define _SP 4
 
 // layers
-#define FUNCTON LT(_FN, KC_LCTL)
-#define UTILITY LT(_UT, DISPUTT)
-#define SPECIAL LT(_SP, DISMUTE)
+#define FNCTN LT(_FN, KC_LCTL)
+#define UTLTY LT(_UT, DISPUTT)
+#define SPECL LT(_SP, DISMUTE)
 #define MEDIA LT(_ME, KC_ESC)
 
 // Encoder
@@ -97,3 +97,11 @@
 #define DISDEAF C(S(KC_F15))  // Deafen
 #define DISPUTT C(S(KC_F16))  // Push To talk
 #define DISTOGG C(S(KC_F17))  // toggles between push to talk and auto detect voice
+
+// Cleanup
+
+#define CTRL KC_LCTRL
+#define PGUP KC_PGUP
+#define PGDN KC_PGDN
+#define HOME KC_HOME
+#define SHFT KC_LSHFT

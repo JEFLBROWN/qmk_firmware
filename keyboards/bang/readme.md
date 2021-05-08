@@ -1,6 +1,6 @@
-# Dilettante
+# BANG!
 
-![dilettante](imgur.com image replace me!)
+![BANG!](imgur.com image replace me!)
 
 *A Jack of all trades keyboard*
 
