@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID  0x1985
 #define DEVICE_VER  0x0001
 #define MANUFACTURER JEF_BROWN
-#define PRODUCT Dilettante
-#define DESCRIPTION  Board for all trades
+#define PRODUCT BANG!
+#define DESCRIPTION  Built by Jef for Mase and Troy
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -37,34 +37,26 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS { A2, A6, A15, A8, A7, B0, A1, A0, B8, B13, B15, B9, B10, B11, B12 }
 
 /* Encoder assignment */
-#define ENCODERS_PAD_A { B6 }
-#define ENCODERS_PAD_B { B7 }
+#define ENCODERS_PAD_A { B7 }
+#define ENCODERS_PAD_B { B6 }
+#define TAP_CODE_DELAY 25
 
 /* how many pulses the encoder registers between each detent */
-#define ENCODER_RESOLUTION 4
+#define ENCODER_RESOLUTION 2
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
 // RGB
 #define RGB_DI_PIN A9
-#define RGBLED_NUM 16
+#define RGBLED_NUM 1
 #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
-// #define DRIVER_LED_TOTAL 1
-// #ifdef RGB_DI_PIN
-// #    define RGBLIGHT_HUE_STEP 8
-// #    define RGBLIGHT_SAT_STEP 8
-// #    define RGBLIGHT_VAL_STEP 100
-// #    define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
-
-// #    define RGBLIGHT_EFFECT_BREATHING
-/*== customize breathing effect ==*/
-/*==== (DEFAULT) use fixed table instead of exp() and sin() ====*/
-//#    define RGBLIGHT_BREATHE_TABLE_SIZE 256      // 256(default) or 128 or 64
-/*==== use exp() and sin() ====*/
-//#    define RGBLIGHT_EFFECT_BREATHE_CENTER 1.85  // 1 to 2.7
-//#    define RGBLIGHT_EFFECT_BREATHE_MAX    255   // 0 to 255
-//#endif
+#define DRIVER_LED_TOTAL 1
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_LIGHT
+#define RGBLIGHT_DEFAULT_HUE 128
+#define RGBLIGHT_DEFAULT_SAT 10
+#define RGBLIGHT_DEFAULT_VAL 50
+#define RGBLIGHT_LAYERS
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5

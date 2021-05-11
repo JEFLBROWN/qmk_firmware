@@ -7,7 +7,7 @@
 // layers
 #define FNCTN LT(_FN, KC_LCTL)
 #define UTLTY LT(_UT, DISPUTT)
-#define SPECL LT(_SP, DISMUTE)
+#define SPCAL LT(_SP, DISMUTE)
 #define MEDIA LT(_ME, KC_ESC)
 
 // Encoder
@@ -104,4 +104,4 @@
 #define PGUP KC_PGUP
 #define PGDN KC_PGDN
 #define HOME KC_HOME
-#define SHFT KC_LSHFT
+#define SHFT KC_LSFT
